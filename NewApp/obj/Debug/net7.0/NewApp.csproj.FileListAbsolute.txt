@@ -1,0 +1,15 @@
+D:\PTPM\Net_Core\NewApp\bin\Debug\net7.0\NewApp.exe
+D:\PTPM\Net_Core\NewApp\bin\Debug\net7.0\NewApp.deps.json
+D:\PTPM\Net_Core\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+D:\PTPM\Net_Core\NewApp\bin\Debug\net7.0\NewApp.dll
+D:\PTPM\Net_Core\NewApp\bin\Debug\net7.0\NewApp.pdb
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.csproj.AssemblyReference.cache
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.dll
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.pdb
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+D:\PTPM\Net_Core\NewApp\obj\Debug\net7.0\ref\NewApp.dll
