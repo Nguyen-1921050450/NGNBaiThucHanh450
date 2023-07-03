@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Nhap ten :");
+string ten = Console.ReadLine();
+Console.WriteLine("ten la :"+ten);
