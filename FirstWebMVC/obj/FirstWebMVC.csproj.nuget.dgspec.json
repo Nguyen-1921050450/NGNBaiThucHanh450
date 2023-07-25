@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj": {}
+    "D:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj": {}
   },
   "projects": {
-    "d:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj": {
+    "D:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectUniqueName": "D:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj",
         "projectName": "FirstWebMVC",
-        "projectPath": "d:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectPath": "D:\\PTPM\\Net_Core\\FirstWebMVC\\FirstWebMVC.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "d:\\PTPM\\Net_Core\\FirstWebMVC\\obj\\",
+        "outputPath": "D:\\PTPM\\Net_Core\\FirstWebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,7 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +38,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
