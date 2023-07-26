@@ -227,7 +227,6 @@ D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspac
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
@@ -251,8 +250,14 @@ D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win-arm\native\e_sqlite3.
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
-D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\PTPM\Net_Core\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.csproj.CopyComplete
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\EPPlus.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\EPPlus.Interfaces.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\PTPM\Net_Core\FirstWebMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll

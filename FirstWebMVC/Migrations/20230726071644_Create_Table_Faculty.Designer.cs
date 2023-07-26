@@ -3,6 +3,7 @@ using System;
 using FirstWebMVC.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstWebMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230726071644_Create_Table_Faculty")]
+    partial class Create_Table_Faculty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.9");
@@ -54,20 +57,6 @@ namespace FirstWebMVC.Migrations
                     b.ToTable("Employee");
                 });
 
-            modelBuilder.Entity("FirstWebMVC.Models.Faculty", b =>
-                {
-                    b.Property<string>("FacultyID")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("FacultyName")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("FacultyID");
-
-                    b.ToTable("Faculty");
-                });
-
             modelBuilder.Entity("FirstWebMVC.Models.Person", b =>
                 {
                     b.Property<string>("Fullname")
@@ -90,17 +79,11 @@ namespace FirstWebMVC.Migrations
                     b.Property<string>("StudentID")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("FacultyID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("StudentName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("StudentID");
-
-                    b.HasIndex("FacultyID");
 
                     b.ToTable("Students");
                 });
@@ -124,17 +107,6 @@ namespace FirstWebMVC.Migrations
                         .HasColumnType("TEXT");
 
                     b.ToTable("Dog");
-                });
-
-            modelBuilder.Entity("FirstWebMVC.Models.Student", b =>
-                {
-                    b.HasOne("FirstWebMVC.Models.Faculty", "Faculty")
-                        .WithMany()
-                        .HasForeignKey("FacultyID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Faculty");
                 });
 
             modelBuilder.Entity("FirstWebMVC.Models.Cat", b =>
